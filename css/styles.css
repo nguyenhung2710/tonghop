@@ -197,6 +197,12 @@ img.img1 {
   height: 24.8em;
 }
 
+@media (min-width: 992px) {
+  img.img1 {
+    height: 27.5rem;
+  }
+}
+
 figure {
   margin: 0 0 1rem;
 }
@@ -9125,7 +9131,7 @@ button.bg-black:focus {
 
   .mb-lg-5,
 .my-lg-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 3.9rem !important;
   }
 
   .ml-lg-5,
@@ -10318,8 +10324,16 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+      font-size: 3rem;
+      line-height: 4.2rem;
+  }
+  .masthead h2 {
+      max-width: 26rem;
+      font-size: 1rem;
+      margin-bottom: 25px;
+  }
+  .projects-section {
+    padding: 8rem 0 !important;
   }
 }
 @media (min-width: 992px) {
@@ -10328,21 +10342,30 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 13.5rem;
+    font-size: 5.5rem;
+    line-height: 9.5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
+    margin-bottom: 30px;
   }
 }
 
 .about-section {
-  height: 34.7em;
-  padding-top: 10rem;
+  height: 29.3em;
+  padding-top: 7rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
+
+@media (min-width: 1366px) {
+  .about-section {
+    height: 34.7em;
+    padding-top: 12rem;
+  }
+}
+
 .about-section p {
   margin-bottom: 5rem;
 }
